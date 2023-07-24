@@ -34,7 +34,7 @@
 <body>
     <header class="container mx-auto">
         <div class="pt-20">
-            <div class="flex justify-evenly flex-col lg:flex-row">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
               <div>
                 <h1 class="text-7xl text-[#1C1C1C] font-extrabold leading-[100px]">It's good <br>
                     tea time at The <br>Tea House</h1>
@@ -44,7 +44,7 @@
                   </svg></button>
               </div>
               <div>
-                <img src="/images/banner.png" class="max-w-sm"/>
+                <img src="/images/banner.png" class=""/>
                 <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
                     <i class="fa-solid fa-star text-3xl" style="color: #ffc850;"></i>
                     <div>
@@ -159,8 +159,51 @@
           </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="py-10 bg-base-200 text-base-content lg:px-48 pl-5">
+      <div class="flex justify-between my-5 lg:my-24">
+        <img src="images/cup.png" alt="">
+        <p class="lg:mr-52">
+          <span class="mr-6">Ready to get strated?</span>
+          <button class="btn btn-primary">Get Started</button>
+        </p>
+      </div>
+      <div class="footer">
+        <div>
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        <div>
+          <span class="footer-title">Newsletter</span> 
+          <div class="form-control w-60 lg:w-80">
+            <label class="label">
+              <span class="font-semibold text-2xl leading-10">Subscribe to our newsletter</span>
+            </label> 
+            <div class="relative">
+              <input type="text" placeholder="Email address" class="bg-transparent py-4 border-b-2 border-black outline-none" /> 
+              <button class="btn absolute top-0 right-0 rounded-full bg-gradient-to-r from-[#FF8938] to-[#F00000]"><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <p>© 2023 omarjafor.com - All rights reserved by OMARJFOR.</p>
+      </div>
     </footer>
 </body>
 </html>
